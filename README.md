@@ -1,29 +1,20 @@
 # Deep-Learning-BCI-IV-2a
 Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Learning
 
-Modelos:
+**Modelos:**
 
-CNN-2D
+* CNN-2D
+* CNN-1D
+* LSTM
+* GRU
+* CNN-1D-LSTM
+* CNN-1D-GRU
+* ConvLSTM2D
+* MLP
+* SVM
+* Random Forest
 
-CNN-1D
-
-LSTM
-
-GRU
-
-CNN-1D-LSTM
-
-CNN-1D-GRU
-
-ConvLSTM2D
-
-MLP
-
-SVM
-
-Random Forest
-
-Data Set: BCI Competition IV-2a
+**Data Set:** BCI Competition IV-2a
 
 ### RAW
 Datos crudos, 22 canales con 1000 valores (4seg a 250Hz), filtrado con pasa banda (8Hz-30Hz)
