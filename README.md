@@ -2,7 +2,6 @@
 Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Learning
 
 **Modelos:**
-
 * CNN-2D
 * CNN-1D
 * LSTM
