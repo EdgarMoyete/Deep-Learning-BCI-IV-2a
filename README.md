@@ -1,7 +1,7 @@
 # Deep-Learning-BCI-IV-2a
 Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Learning
 
-**Modelos:**
+**Modelos para RAW, DWT-Coef, AlfaC3C4 y RWE-DWT:**
 * CNN-2D
 * CNN-1D
 * LSTM
@@ -12,6 +12,12 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * MLP
 * SVM
 * Random Forest
+
+**Modelos para Espectros-STFT y Escalogramas-CWT**
+* CNN-3D
+* CNN-2D + LSTM
+* CNN-2D + GRU
+* ConvLSTM2D
 
 **Data Set:**
 * BCI Competition IV-2a
