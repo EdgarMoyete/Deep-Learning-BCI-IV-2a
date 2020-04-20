@@ -48,15 +48,16 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * STFT3D-CNN2D-H.ipynb
 * STFT3D-CNN2D-V.ipynb
 * STFT3D-CNN2D-V-Resize.ipynb
-* STFT3D-CNN2D-V-Resize_DataAugmentation.ipynb
+* STFT3D-CNN2D-V-Resize-DataAugmentation.ipynb
 * STFT3D-CNN2D-V-Explorar.ipynb
 * STFT3D-CNN2D-V-Resize-Explorar.ipynb
 * STFT3D-ConvLSTM2D-V-Resize.ipynb
 * STFT3D-RNNs-2C-V.ipynb
 * STFT3D-RNNs-H.ipynb
 * STFT3D-RNNs-V.ipynb
+* STFT3D-RNNs-Ventaneo
 * STFT3D-Ventaneo.ipynb
-* STFT3D-Ventaneo_DataAugmentation.ipynb
+* STFT3D-Ventaneo-DataAugmentation.ipynb
 * STFT4D-2C.ipynb
 * STFT4D-2C-Resize.ipynb
 * STFT4D.ipynb
@@ -72,6 +73,19 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 
 ### Escalogramas-CWT
 * Escalogramas con la transformada continua wavelet, modulo de la wavelet de Morlet compleja (cmor3-3), 128 escalas
+
+* CWT3D-CNN2D-2C-V.ipynb
+* CWT3D-CNN2D-V.ipynb
+* CWT3D-CNN2D-V-DataAugmentation.ipynb
+* CWT3D-CNN2D-V-Explorar.ipynb
+* CWT3D-RNNs-2C-V.ipynb
+* CWT3D-RNNs-V.ipynb
+* CWT3D-Ventaneo.ipynb
+* CWT3D-Ventaneo-DataAugmentation.ipynb
+* CWT4D-2C.ipynb
+* CWT4D.ipynb
+* Fine-Tuning.ipynb
+* Transfer-Learning.ipynb
 
 * 2C = 2 canales: Los canales son C3 y C4
 * V = Concatenacion vertical
