@@ -14,10 +14,11 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * Random Forest
 
 **Modelos para Espectros-STFT y Escalogramas-CWT**
-* CNN-3D
+* CNN-2D
 * CNN-2D + LSTM
 * CNN-2D + GRU
 * ConvLSTM2D
+* CNN-3D
 
 **Data Set:**
 * BCI Competition IV-2a
@@ -41,26 +42,33 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 ### Espectros-STFT
 * Espectrogramas con la transformada de Fourier de tiempo corto, ventana de tukey de 0.25
 
+* Fine-Tuning.ipynb
 * STFT3D-CNN2D-2C-V.ipynb
 * STFT3D-CNN2D-2C-V-Resize.ipynb
 * STFT3D-CNN2D-H.ipynb
 * STFT3D-CNN2D-V.ipynb
 * STFT3D-CNN2D-V-Resize.ipynb
+* STFT3D-CNN2D-V-Resize_DataAugmentation.ipynb
 * STFT3D-CNN2D-V-Explorar.ipynb
 * STFT3D-CNN2D-V-Resize-Explorar.ipynb
 * STFT3D-ConvLSTM2D-V-Resize.ipynb
 * STFT3D-RNNs-2C-V.ipynb
 * STFT3D-RNNs-H.ipynb
 * STFT3D-RNNs-V.ipynb
+* STFT3D-Ventaneo.ipynb
+* STFT3D-Ventaneo_DataAugmentation.ipynb
 * STFT4D-2C.ipynb
 * STFT4D-2C-Resize.ipynb
 * STFT4D.ipynb
 * STFT4D-Resize.ipynb
+* Transfer-Learning.ipynb
 
 * 2C = 2 canales: Los canales son C3 y C4
 * V/H = Concatenacion vertical u horizontal
 * Resize = resize de la imagen
 * Explorar = Impresion de ejemplos
+* DataAugmentation = width_shift_range
+* Ventaneo = Ventanas de 2 segundos superpuestas al 95%
 
 ### Escalogramas-CWT
 * Escalogramas con la transformada continua wavelet, modulo de la wavelet de Morlet compleja (cmor3-3), 128 escalas
@@ -68,6 +76,8 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * 2C = 2 canales: Los canales son C3 y C4
 * V = Concatenacion vertical
 * Explorar = Impresion de ejemplos
+* DataAugmentation = width_shift_range
+* Ventaneo = Ventanas de 2 segundos superpuestas al 95%
 
 ### Notas
 * Al importar los datos header=None porque no hay encabezado
