@@ -52,6 +52,7 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * STFT3D-CNN2D-V-Explorar.ipynb
 * STFT3D-CNN2D-V-Resize-Explorar.ipynb
 * STFT3D-ConvLSTM2D-V-Resize.ipynb
+* STFT3D-Predecir.ipynb
 * STFT3D-RNNs-2C-V.ipynb
 * STFT3D-RNNs-H.ipynb
 * STFT3D-RNNs-V.ipynb
@@ -78,6 +79,7 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * CWT3D-CNN2D-V.ipynb
 * CWT3D-CNN2D-V-DataAugmentation.ipynb
 * CWT3D-CNN2D-V-Explorar.ipynb
+* CWT3D-Predecir.ipynb
 * CWT3D-RNNs-2C-V.ipynb
 * CWT3D-RNNs-V.ipynb
 * CWT3D-Ventaneo.ipynb
