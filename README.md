@@ -53,6 +53,7 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * STFT3D-CNN2D-V-Resize-Explorar.ipynb
 * STFT3D-ConvLSTM2D-V-Resize.ipynb
 * STFT3D-Predecir.ipynb
+* STFT3D-Predecir-RNN.ipynb
 * STFT3D-RNNs-2C-V.ipynb
 * STFT3D-RNNs-H.ipynb
 * STFT3D-RNNs-V.ipynb
@@ -63,6 +64,8 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * STFT4D-2C-Resize.ipynb
 * STFT4D.ipynb
 * STFT4D-Resize.ipynb
+* STFT-CNN2D-V-Resize-DA-CV.ipynb
+* STFT-RNNs-V-CV.ipynb
 * Transfer-Learning.ipynb
 
 * 2C = 2 canales: Los canales son C3 y C4
@@ -80,12 +83,15 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * CWT3D-CNN2D-V-DataAugmentation.ipynb
 * CWT3D-CNN2D-V-Explorar.ipynb
 * CWT3D-Predecir.ipynb
+* CWT3D-Predecir-RNN.ipynb
 * CWT3D-RNNs-2C-V.ipynb
 * CWT3D-RNNs-V.ipynb
+* CWT3D-RNNs-V-CV.ipynb
 * CWT3D-Ventaneo.ipynb
 * CWT3D-Ventaneo-DataAugmentation.ipynb
 * CWT4D-2C.ipynb
 * CWT4D.ipynb
+* CWT-CNN2D-V-DA-CV.ipynb
 * Fine-Tuning.ipynb
 * Transfer-Learning.ipynb
 

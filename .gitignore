@@ -16,4 +16,13 @@ Espectros-STFT/MI-EE*.csv
 Escalogramas-CWT/.ipynb_checkpoints
 Escalogramas-CWT/Etiqu*.csv
 Escalogramas-CWT/MI-EE*.csv
+Espectros-STFT-Binaria/.ipynb_checkpoints
+Espectros-STFT-Binaria/Etiqu*.csv
+Espectros-STFT-Binaria/MI-EE*.csv
+Escalogramas-CWT-Binaria/.ipynb_checkpoints
+Escalogramas-CWT-Binaria/Etiqu*.csv
+Escalogramas-CWT-Binaria/MI-EE*.csv
+RWE-DWT-Binaria/.ipynb_checkpoints
+RWE-DWT-Binaria/Etiqu*.csv
+RWE-DWT-Binaria/MI-EE*.csv
 Modelos
