@@ -42,21 +42,25 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 ### Espectros-STFT
 * Espectrogramas con la transformada de Fourier de tiempo corto, ventana de tukey de 0.25
 
+* `STFT-CNN.ipynb`
+* `STFT-CNN-GS.ipynb`
+* `STFT-CNN-Predecir.ipynb`
+* `STFT-CNN-CV.ipynb`
+* `STFT-CNN-LSTM.ipynb`
+* `STFT-CNN-LSTM-GS.ipynb`
+* `STFT-CNN-LSTM-Predecir.ipynb`
+* `STFT-CNN-LSTM-CV.ipynb`
 * Fine-Tuning.ipynb
 * STFT3D-CNN2D-2C-V.ipynb
 * STFT3D-CNN2D-2C-V-Resize.ipynb
 * STFT3D-CNN2D-H.ipynb
 * STFT3D-CNN2D-V.ipynb
 * STFT3D-CNN2D-V-Resize.ipynb
-* STFT3D-CNN2D-V-Resize-DataAugmentation.ipynb
 * STFT3D-CNN2D-V-Explorar.ipynb
 * STFT3D-CNN2D-V-Resize-Explorar.ipynb
 * STFT3D-ConvLSTM2D-V-Resize.ipynb
-* STFT3D-Predecir.ipynb
-* STFT3D-Predecir-RNN.ipynb
 * STFT3D-RNNs-2C-V.ipynb
 * STFT3D-RNNs-H.ipynb
-* STFT3D-RNNs-V.ipynb
 * STFT3D-RNNs-Ventaneo
 * STFT3D-Ventaneo.ipynb
 * STFT3D-Ventaneo-DataAugmentation.ipynb
@@ -64,8 +68,7 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * STFT4D-2C-Resize.ipynb
 * STFT4D.ipynb
 * STFT4D-Resize.ipynb
-* STFT-CNN2D-V-Resize-DA-CV.ipynb
-* STFT-RNNs-V-CV.ipynb
+* STFT-CNN2D-DA_2.ipynb
 * Transfer-Learning.ipynb
 
 * 2C = 2 canales: Los canales son C3 y C4
@@ -74,24 +77,28 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * Explorar = Impresion de ejemplos
 * DataAugmentation = width_shift_range
 * Ventaneo = Ventanas de 2 segundos superpuestas al 95%
+* x_2 = 2 segundos de señal
 
 ### Escalogramas-CWT
 * Escalogramas con la transformada continua wavelet, modulo de la wavelet de Morlet compleja (cmor3-3), 128 escalas
 
+* `CWT-CNN.ipynb`
+* `CWT-CNN-GS.ipynb`
+* `CWT-CNN-Predecir.ipynb`
+* `CWT-CNN-CV.ipynb`
+* `CWT-CNN-LSTM.ipynb`
+* `CWT-CNN-LSTM-GS.ipynb`
+* `CWT-CNN-LSTN-Predecir.ipynb`
+* `CWT-CNN-LSTM-CV.ipynb`
 * CWT3D-CNN2D-2C-V.ipynb
 * CWT3D-CNN2D-V.ipynb
-* CWT3D-CNN2D-V-DataAugmentation.ipynb
 * CWT3D-CNN2D-V-Explorar.ipynb
-* CWT3D-Predecir.ipynb
-* CWT3D-Predecir-RNN.ipynb
 * CWT3D-RNNs-2C-V.ipynb
-* CWT3D-RNNs-V.ipynb
-* CWT3D-RNNs-V-CV.ipynb
 * CWT3D-Ventaneo.ipynb
 * CWT3D-Ventaneo-DataAugmentation.ipynb
 * CWT4D-2C.ipynb
 * CWT4D.ipynb
-* CWT-CNN2D-V-DA-CV.ipynb
+* CWT-CNN2D-DA_2.ipynb
 * Fine-Tuning.ipynb
 * Transfer-Learning.ipynb
 
@@ -100,6 +107,7 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * Explorar = Impresion de ejemplos
 * DataAugmentation = width_shift_range
 * Ventaneo = Ventanas de 2 segundos superpuestas al 95%
+* x_2 = 2 segundos de señal
 
 ### Notas
 * Al importar los datos header=None porque no hay encabezado
