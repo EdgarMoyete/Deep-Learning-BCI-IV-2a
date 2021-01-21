@@ -1,5 +1,5 @@
 # Deep-Learning-BCI-IV-2a
-Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Learning
+Clasificación de imaginación motora en señales de EEG con Deep Learning y Machine Learning utilizando BCI Competition IV dataset 2a
 
 **Modelos para RAW, DWT-Coef, AlfaC3C4 y RWE-DWT:**
 * CNN-2D
@@ -43,30 +43,30 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * Espectrogramas con la transformada de Fourier de tiempo corto, ventana de tukey de 0.25
 
 * `STFT-CNN.ipynb`
+* `STFT-CNN-CV.ipynb`
 * `STFT-CNN-GS.ipynb`
 * `STFT-CNN-Predecir.ipynb`
-* `STFT-CNN-CV.ipynb`
 * `STFT-CNN-LSTM.ipynb`
+* `STFT-CNN-LSTM-CV.ipynb`
 * `STFT-CNN-LSTM-GS.ipynb`
 * `STFT-CNN-LSTM-Predecir.ipynb`
-* `STFT-CNN-LSTM-CV.ipynb`
+* `STFT-CNN-Explorar.ipynb`
 * Fine-Tuning.ipynb
 * STFT3D-CNN2D-2C-V.ipynb
 * STFT3D-CNN2D-2C-V-Resize.ipynb
 * STFT3D-CNN2D-H.ipynb
 * STFT3D-CNN2D-V.ipynb
+* STFT3D-CNN2D-V-DataAug-Explorar.ipynb
 * STFT3D-CNN2D-V-Resize.ipynb
-* STFT3D-CNN2D-V-Explorar.ipynb
-* STFT3D-CNN2D-V-Resize-Explorar.ipynb
 * STFT3D-ConvLSTM2D-V-Resize.ipynb
 * STFT3D-RNNs-2C-V.ipynb
 * STFT3D-RNNs-H.ipynb
-* STFT3D-RNNs-Ventaneo
+* STFT3D-RNNs-Ventaneo.ipynb
 * STFT3D-Ventaneo.ipynb
 * STFT3D-Ventaneo-DataAugmentation.ipynb
+* STFT4D.ipynb
 * STFT4D-2C.ipynb
 * STFT4D-2C-Resize.ipynb
-* STFT4D.ipynb
 * STFT4D-Resize.ipynb
 * STFT-CNN2D-DA_2.ipynb
 * Transfer-Learning.ipynb
@@ -83,21 +83,21 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 * Escalogramas con la transformada continua wavelet, modulo de la wavelet de Morlet compleja (cmor3-3), 128 escalas
 
 * `CWT-CNN.ipynb`
+* `CWT-CNN-CV.ipynb`
 * `CWT-CNN-GS.ipynb`
 * `CWT-CNN-Predecir.ipynb`
-* `CWT-CNN-CV.ipynb`
 * `CWT-CNN-LSTM.ipynb`
+* `CWT-CNN-LSTM-CV.ipynb`
 * `CWT-CNN-LSTM-GS.ipynb`
 * `CWT-CNN-LSTN-Predecir.ipynb`
-* `CWT-CNN-LSTM-CV.ipynb`
+* `CWT-CNN-Explorar.ipynb`
 * CWT3D-CNN2D-2C-V.ipynb
 * CWT3D-CNN2D-V.ipynb
-* CWT3D-CNN2D-V-Explorar.ipynb
 * CWT3D-RNNs-2C-V.ipynb
 * CWT3D-Ventaneo.ipynb
 * CWT3D-Ventaneo-DataAugmentation.ipynb
-* CWT4D-2C.ipynb
 * CWT4D.ipynb
+* CWT4D-2C.ipynb
 * CWT-CNN2D-DA_2.ipynb
 * Fine-Tuning.ipynb
 * Transfer-Learning.ipynb
@@ -111,5 +111,4 @@ Clasificacion de Imagenes Motoras en senales EEG con Deep Learning y Machine Lea
 
 ### Notas
 * Al importar los datos header=None porque no hay encabezado
-* Las etiquetas tienen valores de 1 a 4 por lo tanto en Keras se tienen que codificar las etiquetas
-* Los datos estan escalados para que tengan media=0 y desviacion estandar=1 (ReLU), excepto para LSTM y GRU los cuales estan en el rango [-1, 1] (tanh)
+* Las etiquetas tienen valores de 1 a 4 por lo tanto en Keras se tienen que codificar las etiquetas u otra opción es procesar las etiquetas para que los valores sean del 0 al 3
