@@ -112,3 +112,6 @@ Clasificación de imaginación motora en señales de EEG con Deep Learning y Mac
 ### Notas
 * Al importar los datos header=None porque no hay encabezado
 * Las etiquetas tienen valores de 1 a 4 por lo tanto en Keras se tienen que codificar las etiquetas u otra opción es procesar las etiquetas para que los valores sean del 0 al 3
+
+### Mas información
+https://github.com/EdgarMoyete/EEG-Classification-with-CNN
